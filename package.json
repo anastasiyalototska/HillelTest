@@ -1,0 +1,14 @@
+{
+  "name": "hilleltest",
+  "version": "1.0.0",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^14.3.2"
+  },
+  "scripts": {
+    "test:qauto": "cypress open --env configFile=qauto",
+    "test:qauto2": "cypress open --env configFile=qauto2"
+  }
+}
